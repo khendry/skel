@@ -3,9 +3,9 @@ YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
 
 # Debian packaging envs
-export DEBFULLNAME="Dennis Craven"
-export EMAIL="dcraven@gmail.com"
-export DEBEMAIL="dcraven@gmail.com"
+export DEBFULLNAME="Kevin Hendry"
+export EMAIL="kevin@lugnut.io"
+export DEBEMAIL="kevin@lugnut.io"
 export DEBUILD_DPKG_BUILDPACKAGE_OPTS="-i"
 export QUILT_PATCHES=debian/patches
 

@@ -1,7 +1,7 @@
 alias cd..="cd .."
 alias md="mkdir "
 alias md='mkdir'
-alias ls='ls --color'
+alias ls='ls -lt --color'
 alias sl='ls --color'
 alias n='nautilus --no-desktop "$PWD" >/dev/null &'
 alias diff='colordiff'
