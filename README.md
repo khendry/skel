@@ -27,7 +27,7 @@ Make a new shell source your `~/.profile` by putting this in your `~/.bash_profi
 
 Put the following in your `~/.profile`:
 
-    export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH
+    export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
     source ~/.bashrc
 
 Then type:
