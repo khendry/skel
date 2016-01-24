@@ -1,6 +1,6 @@
 "===============================================================================
 "==========  CUSTOMIZATION (vimrc)  ============================================
-" Last Modified: November 07, 2014
+" Last Modified: January 24, 2016
 "===============================================================================
 filetype off
 call pathogen#runtime_append_all_bundles() 
@@ -111,7 +111,6 @@ endif
 set cscopequickfix=s-,c-,d-,i-,t-,e-
 set cscopetag
 
-
 "CScope Stuff
 if has("cscope")
    set csto=1
@@ -154,7 +153,6 @@ set statusline+=%{synIDattr(synID(line('.'),col('.'),1),'name')}\  " highlight
 set statusline+=%b,0x%-8B\                   " current char
 set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 
-
 set notitle
 set noautochdir
 set iskeyword ="a-z,A-Z,48-57,_,.,-,>,^px"
@@ -185,7 +183,7 @@ set autoindent
 set laststatus=2
 set scrolloff=3
 set history=500
-set ruler   
+set ruler
 set showcmd
 set showmatch
 set magic
