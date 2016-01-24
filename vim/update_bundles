@@ -37,6 +37,8 @@ git_bundles = %w{
   git://github.com/Lokaltog/vim-powerline.git
   git://github.com/slim-template/vim-slim.git
   git://github.com/tpope/vim-rbenv.git
+  git://github.com/elixir-lang/vim-elixir.git
+  git://github.com/elmcast/elm-vim.git
 }
 
 require 'fileutils'
